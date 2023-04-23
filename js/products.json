@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+		"title": "Vanlla Cookie",
+		"itemsInBox": 6,
+		"weight": 180,
+		"price": 300,
+		"imgSrc": "2 (1).gif"
+    },
+    {
+		"id": 2,
+		"title": "Straberry Cookie",
+		"itemsInBox": 6,
+		"weight": 205,
+		"price": 250,
+		"imgSrc": "2 (2).gif"
+	},
+	{
+		"id": 3,
+		"title": "Donuts",
+		"itemsInBox": 6,
+		"weight": 182,
+		"price": 230,
+		"imgSrc": "2 (3).gif"
+	},
+	{
+		"id": 4,
+		"title": "Youikay",
+		"itemsInBox": 6,
+		"weight": 230,
+		"price": 320,
+		"imgSrc": "2 (4).gif"
+	},
+    {
+		"id": 5,
+		"title": "Kerwasown",
+		"itemsInBox": 6,
+		"weight": 182,
+		"price": 230,
+		"imgSrc": "2 (5).gif"
+	},
+	{
+		"id": 6,
+		"title": "Maaru oul",
+		"itemsInBox": 6,
+		"weight": 230,
+		"price": 320,
+		"imgSrc": "2 (6).gif"
+	}
+]
