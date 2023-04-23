@@ -1,0 +1,133 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="en">
+<!-- Created on: 08.06.2022 -->
+
+<!-- Заголовок страницы,контейнер для других важных данных(не отображается) -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--Отключает формирование ссылки у номера телефона на Андроид-->
+  <meta name="format-detection" content="telephone=no">
+  <!--Краткое описание страницы-->
+  <meta name="description" content="Мой первый сайт">
+  <!--Ключевые слова страници-->
+  <meta name="keywords" content="сайт, мой, my first site, мой первый сайт">
+  <!--Автор страницы-->
+  <meta name="author" content="Коцаренко Виталий Александрович">
+  <!--Авторские права-->
+  <meta name="copyright" content="Коцаренко Виталий Александрович">
+  <!--Адрес автора-->
+  <meta name="address" content="г. Мирноград, м-н Молодежный 3-19 ">
+  <title></title> 
+  <!-- Подключаем шрифты -->
+  <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Damion&family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+  <!-- Подключаем CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style1.css" />
+</head>
+<body>
+
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header_inner">
+                <div class="header_logo" data-scroll="#intro">Cuda</div>
+                    <nav class="nav" id="nav">
+                        <a class="nav_link" href="#" data-scroll="#home">Home</a>
+                        <a class="nav_link" href="#" data-scroll="#about">About</a>
+                        <a class="nav_link" href="#" data-scroll="#works">WORK</a>
+                        <a class="nav_link" href="#" data-scroll="#blog">Blog</a>
+                        <a class="nav_link" href="#" data-scroll="#video">Video</a>
+                        <a class="nav_link" href="#" data-scroll="#footer">Contact</a>
+                    </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="intro" id="intro">
+        <div class="container">
+            <div class="full-screen">
+                <div class="intro_inner">
+                    <h2 class="intro_suptitle">Hi there! We are the new kids on the block 
+                        and we build awesome websites and mobile apps.</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container mb-5">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="row" id="products-container">
+
+				</div>
+			</div>
+            <!-- корзина -->
+			<div class="col-md-4">
+
+				<!-- Корзина -->
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">Ваш заказ</h4>
+						<div data-cart-empty class="alert alert-secondary" role="alert">
+							Корзина пуста
+						</div>
+						<!-- cart-wrapper -->
+						<div class="cart-wrapper">
+
+
+						</div>
+						<!-- // cart-wrapper -->
+
+						<!-- Стоимость заказа -->
+						<div class="cart-total">
+							<p data-cart-delivery class="none">
+                            <span class="h5">Доставка:</span> 
+                            <span class="delivery-cost">250 грн</span><br>
+							<span class="small">Бесплатно при заказе от 600 грн</span> 
+                            </p>
+							<p>
+                            <span class="h5">Итого:</span> 
+                            <span class="total-price">0</span> 
+                            <span class="rouble">грн</span>
+                            </p>
+						</div>
+						<!-- // Стоимость заказа -->
+
+					</div>
+
+					<!-- Оформить заказ -->
+					<div id="order-form" class="card-body border-top">
+						<h5 class="card-title">Оформить заказ</h4>
+						<form>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Ваш номер телефона">
+							</div>
+							<button type="submit" class="btn btn-primary">Заказать</button>
+						</form>
+					</div>
+					<!-- // Оформить заказ -->
+
+				</div>
+				<!-- // Корзина -->
+
+
+			</div>
+		</div>
+	</div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/renderProducts.js"></script>
+    <script src="js/calcCartPrice.js"></script>
+    <script src="js/toggleCartStatus.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
